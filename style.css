@@ -74,6 +74,7 @@ footer {
     max-width: 25px;
     max-height: 40px;
     margin-right: 45%;
+    clear: both;
   }
   
   header {
@@ -118,9 +119,10 @@ footer {
   }
 
   footer {
-    clear: both;
+    /* clear: both; */
     max-width: 760px;
     max-height: 150px;
+    float: left;
   }
   footer section {
     height: 150px;
@@ -128,4 +130,7 @@ footer {
     max-width: 760px;
     float: right;
   }
+  footer h2 {
+    margin: 0px auto;
+  } 
 }
