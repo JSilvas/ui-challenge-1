@@ -1,4 +1,136 @@
 * {
-  outline: dotted orange; 
+  /* outline: 1px dotted orange; */
+}
+html {
+  font-size: 1.2em;
+}
+body {
+  background-color:#1B232B;
+  text-align: center;
+}
+h2 {
+  position: relative;
+  top: 40%;
+  font-size: 1.8em;
+  display: block;
 }
 
+
+header {
+  height: 475px;
+  max-width: 480px;
+  margin: 0px auto;
+}
+header :first-child {
+  height: 75px;
+}
+header :nth-child(2) {
+  height: 150px;
+}
+header :nth-child(3) {
+  height: 125px;
+}
+header :last-child {
+  height: 125px;
+}
+
+
+main {
+  height: 500px;
+  max-width: 480px;
+  margin: 0px auto;
+}
+main section {
+  width: 480px;
+  height: 250px;
+}
+main div {
+  width: 240px;
+  height: 250px;
+}
+main .left {
+  float: left;
+}
+main .right {
+  float: right;
+}
+
+
+footer {
+  height: 80px;
+  max-width: 480px;
+  margin: 0px auto;
+}
+
+
+/* ~~~~~~Desktop View~~~~~~ */
+
+@media only screen and (min-width: 800px) {
+  body {
+    background-color: lightblue;
+    font-size: 1.2em;
+  }
+  h2 {
+    max-width: 25px;
+    max-height: 40px;
+    margin-right: 45%;
+    clear: both;
+  }
+  
+  header {
+    max-width: 960px;
+    height: 100px;
+  }
+  header :first-child {
+    height: 100px;
+  }
+  header :nth-child(2) {
+    height: 600px;
+    width: 200px;
+    float: left;
+  }
+  header :nth-child(3) {
+    height: 200px;
+    width: 380px;
+    float: left;
+  }
+  header :last-child {
+    height: 200px;
+    width: 380px;
+    float: right;
+  }
+
+  main {
+    width: 100%;
+    max-width: 760px;
+    max-height: 250px;
+    float: left;
+  }
+  main :first-child {
+    width: 380px;
+    float: left;
+  }
+  main :last-child {
+    width: 380px;
+    float: right;
+  }
+  main div {
+    max-width: 190px;
+  }
+
+  footer {
+    /* clear: both; */
+    max-width: 760px;
+    max-height: 150px;
+    float: left;
+  }
+  footer section {
+    height: 150px;
+    width: 760px;
+    max-width: 760px;
+    float: right;
+  }
+  footer h2 {
+    margin: 0px auto;
+  } 
+}
