@@ -65,7 +65,7 @@ footer {
 
 /* ~~~~~~Desktop View~~~~~~ */
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 960px) {
   body {
     background-color: lightblue;
     font-size: 1.2em;
